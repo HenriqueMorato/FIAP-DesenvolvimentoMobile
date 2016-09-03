@@ -35,6 +35,15 @@
     <EmbeddedResource Include="Pages\LoginPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="Pages\TabbedMainPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\CadastrarPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\PasswordRecoverPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -46,6 +55,15 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Pages\LoginPage.xaml.cs">
       <DependentUpon>LoginPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\TabbedMainPage.xaml.cs">
+      <DependentUpon>TabbedMainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\CadastrarPage.xaml.cs">
+      <DependentUpon>CadastrarPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\PasswordRecoverPage.xaml.cs">
+      <DependentUpon>PasswordRecoverPage.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

@@ -140,6 +140,14 @@
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\about.png" />
+    <BundleResource Include="Resources\about%402x.png" />
+    <BundleResource Include="Resources\contact_on.png" />
+    <BundleResource Include="Resources\contact_on%402x.png" />
+    <BundleResource Include="Resources\ic_animais_p_am.png" />
+    <BundleResource Include="Resources\ic_animais_p_am%402x.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <Import Project="..\packages\Xamarin.Forms.2.0.1.6495\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets" Condition="Exists('..\packages\Xamarin.Forms.2.0.1.6495\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets')" />
 </Project>

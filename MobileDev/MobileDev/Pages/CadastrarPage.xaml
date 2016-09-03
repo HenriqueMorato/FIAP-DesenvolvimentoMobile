@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="MobileDev.CadastrarPage">
+
+	<ContentPage.ToolbarItems>
+		<ToolbarItem x:Name="Cancel" Text="Sair" Activated="Handle_Clicked" Priority="0" Order="Primary" />
+	</ContentPage.ToolbarItems>
+	
+	<ContentPage.Content Orientation="Vertical" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+		<Button x:Name="btnCancel" Text="Cancelar" BackgroundColor="White" TextColor="Black" WidthRequest="200" HeightRequest="30" Clicked="Cancel_click" />
+	</ContentPage.Content>
+</ContentPage>

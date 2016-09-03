@@ -4,11 +4,19 @@ namespace MobileDev
 {
 	public partial class App : Application
 	{
+		private static NavigationPage _NavigationPage;
+		public static NavigationPage NavigationPage
+		{
+			get { return _NavigationPage; }
+			set { _NavigationPage = value; }
+		}
+		
 		public App()
 		{
 			InitializeComponent();
 
-			MainPage = new LoginPage();
+			//MainPage = new LoginPage();
+			MainPage = new NavigationPage(new LoginPage());
 		}
 
 		protected override void OnStart()

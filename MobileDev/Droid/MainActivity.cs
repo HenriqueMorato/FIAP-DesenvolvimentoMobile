@@ -8,6 +8,8 @@ using Android.Views;
 using Android.Widget;
 using Android.OS;
 
+using Acr.UserDialogs;
+
 namespace MobileDev.Droid
 {
 	[Activity(Label = "MobileDev.Droid", Icon = "@drawable/icon", Theme = "@style/MyTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
@@ -19,6 +21,8 @@ namespace MobileDev.Droid
 			ToolbarResource = Resource.Layout.Toolbar;
 
 			base.OnCreate(bundle);
+
+			UserDialogs.Init(this);
 
 			global::Xamarin.Forms.Forms.Init(this, bundle);
 

@@ -8,7 +8,7 @@ namespace MobileDev
 		{
 			InitializeComponent();
 
-			MainPage = new MobileDevPage();
+			MainPage = new LoginPage();
 		}
 
 		protected override void OnStart()

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+		x:Class="MobileDev.LoginPage" Title="Login Teste" BackgroundColor="Gray">
+	<ContentPage.Content>
+		<StackLayout Orientation="Vertical" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Spacing="15">
+			<Entry x:Name="txtLogin" WidthRequest="300" HeightRequest="40" Placeholder="Usuário" PlaceholderColor="Silver" TextColor="Black" BackgroundColor="White"/>
+			<Entry x:Name="txtPassword" WidthRequest="300" HeightRequest="40" Placeholder="Senha" PlaceholderColor="Silver" TextColor="Black" BackgroundColor="White" IsPassword="true"/>
+			<Button x:Name="btnLogin" Clicked="Handle_Clicked" WidthRequest="200" HeightRequest="50" Text="Entrar" BackgroundColor="Silver" TextColor="Black"/>
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>

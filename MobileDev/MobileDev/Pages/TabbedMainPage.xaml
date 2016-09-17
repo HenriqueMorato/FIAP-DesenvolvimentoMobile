@@ -4,6 +4,7 @@
 		x:Class="MobileDev.TabbedMainPage" xmlns:mypage="clr-namespace:MobileDev;assembly=MobileDev" Title="Tabbed">
 	<TabbedPage.Children>
 		<mypage:EnderecoPage Title="Endereço" BackgroundColor="Silver" Icon="ic_animais_p_am.png"/>
-		<mypage:CadastrarPage Title="Cadastrar" BackgroundColor="Green" Icon="contact_on.png"/>
+		<mypage:DadosPage Title="Endereço" BackgroundColor="Silver" Icon="ic_animais_p_am.png"/>
+		<!--<mypage:CadastrarPage Title="Cadastrar" BackgroundColor="Green" Icon="contact_on.png"/>-->
 	</TabbedPage.Children>
 </TabbedPage>

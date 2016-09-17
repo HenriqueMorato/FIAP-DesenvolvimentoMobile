@@ -4,6 +4,8 @@ using Newtonsoft.Json;
 using System.Net.Http;
 using Acr.UserDialogs;
 
+using Plugin.Geolocator;
+
 using Xamarin.Forms;
 
 namespace MobileDev
@@ -13,6 +15,7 @@ namespace MobileDev
 		public EnderecoPage()
 		{
 			InitializeComponent();
+
 		}
 
 		async void Handle_Unfocused(object sender, Xamarin.Forms.FocusEventArgs e)

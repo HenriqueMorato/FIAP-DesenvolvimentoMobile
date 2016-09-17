@@ -7,9 +7,10 @@
 			<Entry x:Name="txtPassword" WidthRequest="300" HeightRequest="40" Placeholder="Senha" PlaceholderColor="Silver" TextColor="Black" BackgroundColor="White" IsPassword="true"/>
 
 			<StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
-				<Button x:Name="btnLogin" Clicked="Handle_Clicked" WidthRequest="100" HeightRequest="50" Text="Entrar" BackgroundColor="Silver" TextColor="Black"/>
+				<Button x:Name="btnLogin" Clicked="Handle_Clicked" WidthRequest="150" HeightRequest="50" Text="Entrar" BackgroundColor="Silver" TextColor="Black"/>
+				<Button x:Name="btnRecover" Clicked="Recover_Clicked" WidthRequest="150" HeightRequest="50" Text="Recuperar Senha" BackgroundColor="Silver" TextColor="Black"/>
 
-				<Button x:Name="btnSignUp" WidthRequest="100" HeightRequest="50" Text="Cadastrar" BackgroundColor="Silver" TextColor="Black"/>
+				<!--<Button x:Name="btnSignUp" WidthRequest="100" HeightRequest="50" Text="Cadastrar" BackgroundColor="Silver" TextColor="Black"/>-->
 			</StackLayout>
 		</StackLayout>
 	</ContentPage.Content>

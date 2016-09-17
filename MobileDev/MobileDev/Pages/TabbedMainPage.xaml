@@ -3,7 +3,7 @@
 		xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
 		x:Class="MobileDev.TabbedMainPage" xmlns:mypage="clr-namespace:MobileDev;assembly=MobileDev" Title="Tabbed">
 	<TabbedPage.Children>
+		<mypage:EnderecoPage Title="Endereço" BackgroundColor="Silver" Icon="ic_animais_p_am.png"/>
 		<mypage:CadastrarPage Title="Cadastrar" BackgroundColor="Green" Icon="contact_on.png"/>
-		<mypage:PasswordRecoverPage Title="Recuperar" BackgroundColor="Red" Icon="ic_animais_p_am.png"/>
 	</TabbedPage.Children>
 </TabbedPage>

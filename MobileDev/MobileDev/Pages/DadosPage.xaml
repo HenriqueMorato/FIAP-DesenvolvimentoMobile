@@ -1,7 +1,11 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="MobileDev.DadosPage">
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="MobileDev.DadosPage" 
+		Title="Temperatura" xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps">
 	<ContentPage.Content>
 		<StackLayout Orientation="Vertical" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Spacing="15">
+
+			<maps:Map x:Name="map" WidthRequest="300" HeightRequest="300" IsShowingUser="true" />
+			
 			<Entry x:Name="latitude" WidthRequest="300" HeightRequest="40" Placeholder="Digite sua Latitude" PlaceholderColor="Silver" TextColor="Black" BackgroundColor="White"/>
 			<Entry x:Name="longitude" WidthRequest="300" HeightRequest="40" Placeholder="Digite sua Longitude" PlaceholderColor="Silver" TextColor="Black" BackgroundColor="White"/>
 			<Entry x:Name="lblTemp" WidthRequest="300" HeightRequest="40" PlaceholderColor="Silver" TextColor="Black" BackgroundColor="White" IsEnabled="false" />

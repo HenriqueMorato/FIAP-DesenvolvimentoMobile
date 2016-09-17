@@ -5,6 +5,7 @@ using Acr.UserDialogs;
 using Plugin.Geolocator;
 using Xamarin.Forms;
 using Newtonsoft.Json;
+using Xamarin.Forms.Maps;
 
 namespace MobileDev
 {
@@ -26,6 +27,22 @@ namespace MobileDev
 
 			string testlon = position.Longitude.ToString();
 			string testlac = position.Latitude.ToString();
+
+			var myPositon = new Position(position.Latitude, position.Longitude);
+
+			var mapspan = MapSpan.FromCenterAndRadius(myPositon, Distance.FromMiles(1));
+
+			var pin = new Pin
+			{
+				Type = PinType.Place,
+				Position = myPositon,
+				Label = "Minha Localização",
+				Address = "Terra do Nunca"
+			};
+
+			map.MoveToRegion(mapspan);
+			map.Pins.Add(pin);
+
 
 			latitude.Text = testlac;
 			longitude.Text = testlon;

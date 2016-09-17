@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <TabbedPage xmlns="http://xamarin.com/schemas/2014/forms" 
 		xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
-		x:Class="MobileDev.TabbedMainPage" xmlns:mypage="clr-namespace:MobileDev;assembly=MobileDev" Title="Tabbed">
+		x:Class="MobileDev.TabbedMainPage" xmlns:mypage="clr-namespace:MobileDev;assembly=MobileDev">
 	<TabbedPage.Children>
 		<mypage:EnderecoPage Title="Endereço" BackgroundColor="Silver" Icon="ic_animais_p_am.png"/>
-		<mypage:DadosPage Title="Endereço" BackgroundColor="Silver" Icon="ic_animais_p_am.png"/>
+		<mypage:DadosPage Title="Temperatura" BackgroundColor="Silver" Icon="ic_animais_p_am.png"/>
 		<!--<mypage:CadastrarPage Title="Cadastrar" BackgroundColor="Green" Icon="contact_on.png"/>-->
 	</TabbedPage.Children>
 </TabbedPage>

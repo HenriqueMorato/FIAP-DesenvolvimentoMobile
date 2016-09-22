@@ -1,0 +1,29 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeuDB.iOS", "MeuDB.iOS.csproj", "{FA8D7F72-C475-4EF4-918D-D65439F33F43}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+		Ad-Hoc|iPhone = Ad-Hoc|iPhone
+		AppStore|iPhone = AppStore|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA8D7F72-C475-4EF4-918D-D65439F33F43}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{FA8D7F72-C475-4EF4-918D-D65439F33F43}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{FA8D7F72-C475-4EF4-918D-D65439F33F43}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{FA8D7F72-C475-4EF4-918D-D65439F33F43}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{FA8D7F72-C475-4EF4-918D-D65439F33F43}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{FA8D7F72-C475-4EF4-918D-D65439F33F43}.Debug|iPhone.Build.0 = Debug|iPhone
+		{FA8D7F72-C475-4EF4-918D-D65439F33F43}.Release|iPhone.ActiveCfg = Release|iPhone
+		{FA8D7F72-C475-4EF4-918D-D65439F33F43}.Release|iPhone.Build.0 = Release|iPhone
+		{FA8D7F72-C475-4EF4-918D-D65439F33F43}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
+		{FA8D7F72-C475-4EF4-918D-D65439F33F43}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
+		{FA8D7F72-C475-4EF4-918D-D65439F33F43}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
+		{FA8D7F72-C475-4EF4-918D-D65439F33F43}.AppStore|iPhone.Build.0 = AppStore|iPhone
+	EndGlobalSection
+EndGlobal

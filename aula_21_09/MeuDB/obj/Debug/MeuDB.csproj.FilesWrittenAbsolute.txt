@@ -1,0 +1,14 @@
+/Users/Guest/Downloads/aula_21_09/MeuDB/obj/Debug/.NETPortable,Version=v4.5,Profile=Profile78.AssemblyAttribute.cs
+/Users/Guest/Downloads/aula_21_09/MeuDB/obj/Debug/MeuDB.MyPage.xaml
+/Users/Guest/Downloads/aula_21_09/MeuDB/obj/Debug/MyPage.xaml.g.cs
+/Users/Guest/Downloads/aula_21_09/MeuDB/bin/Debug/MeuDB.dll.mdb
+/Users/Guest/Downloads/aula_21_09/MeuDB/bin/Debug/MeuDB.dll
+/Users/Guest/Downloads/aula_21_09/MeuDB/obj/Debug/MeuDB.dll
+/Users/Guest/Downloads/aula_21_09/MeuDB/obj/Debug/MeuDB.dll.mdb
+/Users/Guest/Downloads/aula_21_09/MeuDB/bin/Debug/Xamarin.Forms.Core.dll
+/Users/Guest/Downloads/aula_21_09/MeuDB/bin/Debug/Xamarin.Forms.Xaml.dll
+/Users/Guest/Downloads/aula_21_09/MeuDB/bin/Debug/SQLite.Net.dll
+/Users/Guest/Downloads/aula_21_09/MeuDB/obj/Debug/MeuDB.MyPage.xaml.g.cs
+/Users/Guest/Downloads/aula_21_09/MeuDB/bin/Debug/Xamarin.Forms.Platform.dll
+/Users/Guest/Downloads/aula_21_09/MeuDB/obj/Debug/MeuDB.DetalhesPage.xaml
+/Users/Guest/Downloads/aula_21_09/MeuDB/obj/Debug/MeuDB.DetalhesPage.xaml.g.cs

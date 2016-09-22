@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="MeuDB.MyPage">
+	<ContentPage.Content>
+	<StackLayout Padding="30" Spacing="30">
+		<Entry x:Name="Nome" Placeholder="Nome"></Entry>
+		<Entry x:Name="Email" Placeholder="Email" Keyboard="Email"></Entry>
+		<Entry x:Name="Telefone" Placeholder="Telefone" Keyboard="Telephone"></Entry>
+
+		<Button x:Name="Salvar" Text="Salvar" Clicked="SalvarClicked"></Button>
+
+
+		<ListView x:Name="Lista" ItemTapped="Handle_ItemTapped">
+				<ListView.ItemTemplate>
+					<DataTemplate>
+						<ViewCell>
+							<ViewCell.View>
+								<StackLayout HorizontalOptions="Center" Orientation="Vertical" VerticalOptions="Center">
+									<Label Text="{Binding Nome}" TextColor="Black" />
+									<Label Text="{Binding Telefone}" TextColor="Blue" />
+								</StackLayout>
+							</ViewCell.View>
+							<ViewCell.ContextActions>
+								<MenuItem Text="Excluir" IsDestructive="true" Clicked="Handle_Clicked" />
+							</ViewCell.ContextActions>
+						</ViewCell>
+					</DataTemplate>
+				</ListView.ItemTemplate>
+		</ListView>
+
+		<!--<ListView x:Name="Lista" ItemTapped="Handle_ItemTapped">
+				 <ListView.ItemTemplate>
+					<DataTemplate>
+						<ViewCell>
+							<ViewCell.View>
+										<StackLayout  HorizontalOptions="StartAndExpand"  Orientation="Horizontal" VerticalOptions="CenterAndExpand">
+												<StackLayout Orientation="Horizontal"  Spacing="3">
+													<StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" >
+														<Label Text="{Binding Nome}" WidthRequest="110" TextColor="Black" />
+													</StackLayout>
+
+										
+												</StackLayout>
+										
+											</StackLayout>
+							</ViewCell.View>
+							  <ViewCell.ContextActions>
+	                     		<MenuItem Clicked="Handle_Clicked"
+	           						Text="Excluir"  IsDestructive="true" />
+                     		</ViewCell.ContextActions>	
+						</ViewCell>
+					</DataTemplate>
+				</ListView.ItemTemplate>
+			</ListView>!-->
+
+
+	</StackLayout>
+	</ContentPage.Content>
+</ContentPage>
